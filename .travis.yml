@@ -1,6 +1,6 @@
 language: c
 os: osx
-script: make dep && make && make test
+script: make && make test
 sudo: required
 compiler:
   - gcc
